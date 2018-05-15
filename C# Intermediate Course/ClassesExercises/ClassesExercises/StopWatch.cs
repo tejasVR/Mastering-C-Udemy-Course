@@ -4,22 +4,31 @@ namespace ClassesExercises
 {
     public class StopWatch
     {
-        private TimeSpan currentTime;
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
+        private bool _watchStarted;
 
-        public StopWatch(TimeSpan duration)
+
+        public void Start()
         {
-
+            if (!_watchStarted)
+            {
+                StartTime = DateTime.Now;
+                _watchStarted = true;
+            }
+            else
+                throw new InvalidOperationException("The stopwatch has alredy started!");
         }
 
-
-        public class Start
+        public void Stop()
         {
-
+            EndTime = DateTime.Now;
+            _watchStarted = false;
         }
 
-        public class Stop
+        public TimeSpan Result()
         {
-
+            return EndTime - StartTime;
         }
     }
 }
