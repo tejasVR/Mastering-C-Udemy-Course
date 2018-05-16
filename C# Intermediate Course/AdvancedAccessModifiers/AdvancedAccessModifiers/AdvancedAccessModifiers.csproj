@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC309762-4AE4-4668-B253-4D56F9137BDB}</ProjectGuid>
+    <ProjectGuid>{483F85FB-2E90-48D3-B658-A36B9E9F5CA1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Composition</RootNamespace>
-    <AssemblyName>Composition</AssemblyName>
+    <RootNamespace>AdvancedAccessModifiers</RootNamespace>
+    <AssemblyName>AdvancedAccessModifiers</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DbMigrator.cs" />
-    <Compile Include="Installer.cs" />
-    <Compile Include="Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
