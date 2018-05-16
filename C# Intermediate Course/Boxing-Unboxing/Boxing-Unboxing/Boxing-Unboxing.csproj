@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E8C63DD-EB69-4549-BA05-3510462C1CC0}</ProjectGuid>
+    <ProjectGuid>{1AD37C63-6612-4CCD-BAB1-180848001FA7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>UpcastingDowncating</RootNamespace>
-    <AssemblyName>UpcastingDowncating</AssemblyName>
+    <RootNamespace>Boxing_Unboxing</RootNamespace>
+    <AssemblyName>Boxing-Unboxing</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,8 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shape.cs" />
-    <Compile Include="Text.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
