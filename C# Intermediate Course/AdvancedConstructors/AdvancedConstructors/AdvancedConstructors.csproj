@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{483F85FB-2E90-48D3-B658-A36B9E9F5CA1}</ProjectGuid>
+    <ProjectGuid>{53638857-E3BD-47FB-8338-7B2208C69374}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AdvancedAccessModifiers</RootNamespace>
-    <AssemblyName>AdvancedAccessModifiers</AssemblyName>
+    <RootNamespace>AdvancedConstructors</RootNamespace>
+    <AssemblyName>AdvancedConstructors</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,12 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Amazon\Amazon.csproj">
-      <Project>{4CA7D001-8DBC-4BDF-AF91-81937501C357}</Project>
-      <Name>Amazon</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
