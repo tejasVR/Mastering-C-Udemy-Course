@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{53638857-E3BD-47FB-8338-7B2208C69374}</ProjectGuid>
+    <ProjectGuid>{4E8C63DD-EB69-4549-BA05-3510462C1CC0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AdvancedConstructors</RootNamespace>
-    <AssemblyName>AdvancedConstructors</AssemblyName>
+    <RootNamespace>UpcastingDowncating</RootNamespace>
+    <AssemblyName>UpcastingDowncating</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
