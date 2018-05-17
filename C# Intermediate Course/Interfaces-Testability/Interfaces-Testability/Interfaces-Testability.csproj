@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DA81FF62-1CD4-4359-9232-E03C348A6F0A}</ProjectGuid>
+    <ProjectGuid>{21E46C1E-70D9-4034-B992-D4FD2FA903C0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ppolymorphism_Exercises</RootNamespace>
-    <AssemblyName>Ppolymorphism-Exercises</AssemblyName>
+    <RootNamespace>Interfaces_Testability</RootNamespace>
+    <AssemblyName>Interfaces-Testability</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DbConnection.cs" />
-    <Compile Include="OracleConnection.cs" />
-    <Compile Include="DatabaseConnection.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SqlConnection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
