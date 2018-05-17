@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5FB5495A-9A06-4DB7-A5F0-B07FC1A0457B}</ProjectGuid>
+    <ProjectGuid>{000E29E6-4227-4E06-A402-1EF5D31C69C2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Extensibility</RootNamespace>
-    <AssemblyName>Extensibility</AssemblyName>
+    <RootNamespace>Interfaces_Polymorphism</RootNamespace>
+    <AssemblyName>Interfaces-Polymorphism</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleLogger.cs" />
-    <Compile Include="DbMigrator.cs" />
-    <Compile Include="FileLogger.cs" />
-    <Compile Include="ILogger.cs" />
+    <Compile Include="INotificationChannel.cs" />
+    <Compile Include="Mail.cs" />
+    <Compile Include="MailNotification.cs" />
+    <Compile Include="MailService.cs" />
+    <Compile Include="Message.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SMSNotification.cs" />
+    <Compile Include="Video.cs" />
+    <Compile Include="VideoEncoder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
