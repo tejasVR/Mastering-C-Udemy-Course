@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2C1FE3D7-9213-4AD6-AB1E-9A431A86A977}</ProjectGuid>
+    <ProjectGuid>{DA81FF62-1CD4-4359-9232-E03C348A6F0A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractClasses</RootNamespace>
-    <AssemblyName>AbstractClasses</AssemblyName>
+    <RootNamespace>Ppolymorphism_Exercises</RootNamespace>
+    <AssemblyName>Ppolymorphism-Exercises</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Circle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="Shape.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
