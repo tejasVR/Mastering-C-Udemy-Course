@@ -9,5 +9,5 @@ This is a small repository to store my exercises and solutions pertaining to the
 
 ## Verfication of Certifications:
 Below you can see my Udemy certificate earned when completing specific parts of the overall "Master C# Course"
-![alt text](https://github.com/tejasVR/Mastering-CSharp-Udemy-Course/blob/master/UC-8NJYQHBD.jpg "")
 ![alt text](https://github.com/tejasVR/Mastering-CSharp-Udemy-Course/blob/master/UC-4OLJHHAP.jpg "")
+![alt text](https://github.com/tejasVR/Mastering-CSharp-Udemy-Course/blob/master/UC-8NJYQHBD.jpg "")
